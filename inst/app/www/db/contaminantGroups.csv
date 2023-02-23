@@ -1,0 +1,4 @@
+"id_contaminantGroup","description","unit"
+1,"Chemical compound","Removal efficiency (%)"
+2,"Genetic marker","Log removal value"
+3,"Bacteria","Log removal value"

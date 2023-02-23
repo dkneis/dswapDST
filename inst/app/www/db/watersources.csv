@@ -1,0 +1,6 @@
+id_watersource,description
+APTW,"advanced primary treated waste water (pre-sscreening, grit removal, chemical coagulation, flocculation, sedimentation)"
+RMW,real municipal wastewater (from the local wastewater treatment plant)
+STW,Secondary treated wastewater
+TTW,tertiary treated wastewater
+PTW,"primary treated wastewater (grit separator, primary sedimentation, clarifier)"

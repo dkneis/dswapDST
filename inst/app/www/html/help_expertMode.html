@@ -1,0 +1,46 @@
+<p style="font-weight:bold">
+The SQL interface
+</p>
+
+<p>
+This interface allows SQL 'select' queries to be executed on the database. Refer to the relationship model shown at the bottom of the page to formulate your query. Note that, for security reasons, the allowed set of characters in SQL select statements was reduced to a minimum. Consequently, even some very common queries will not run. 
+</p>
+
+<p>
+Enter the SQL query string into the form and click the submit button. Tabular output resulting from the query will be displayed below the form. In case of an incorrect query, the respective error message will be displayed.
+</p>
+
+<p>
+A set of sample queries can be found below. It is recommended to develop new queries in a local text editor so as to prevent a loss of work in case of network problems or other issues.
+</p>
+
+<p style="font-weight:bold">
+Example queries
+</p>
+
+<p style="font-style:italic">
+Find the total number of records stored in the database
+</p>
+<p style="font-family:monospace; text-indent:2em">
+select count (*) from efficiencies
+</p>
+
+<p style="font-style:italic">
+Return the entire table of contaminants
+</p>
+<p style="font-family:monospace; text-indent:2em">
+select * from contaminants
+</p>
+
+<p style="font-style:italic">
+Find the number of records per contaminant
+</p>
+<p style="font-family:monospace; text-indent:2em">
+SELECT description AS Contaminant, COUNT (*) AS Records FROM efficiencies AS ef LEFT JOIN contaminants AS co ON ef.id_contaminant = co.id_contaminant GROUP BY description
+</p>
+
+<p style="font-weight:bold">
+Relationship model of the database
+</p>
+
+<img src="figures/erm.png" alt="Tables and relations" style="align:center; width:60em">

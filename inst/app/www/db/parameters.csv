@@ -1,0 +1,57 @@
+id_parameter,unit,description
+BOD_eff,mg/L,biochemical oxygen demand at effluent
+BOD_in,mg/L,biochemcal oxygen demand at inlet
+BOD5,%,reduction efficiency for biochemical oxygen demand in reactor
+C_BPAC,mg/L,concentration of biological powdered activated carbon 
+C_Cl,mg/L,dose of free chlorine
+C_DOC,mg/L,concentration of the dissolved organic carbon at influent
+C_Fe,mg/L,concentration of iron for photo Fenton processes
+C_H2O2,mg/L,concentration of hydrogen peroxide for AOPs
+C_i,CFU/mL,initial concentration of total or fecal coliforms 
+C_i_arg,copies/mL,initial concentration of genes (absolute abundance)
+C_ini,ng/L,Input concentration of pharmaceuticals
+C_O3,gO3/gDOC,amount of ozone present adjusted to the dissolved organic carbon concentration
+C_O3_2,mg/L,concentration of ozone used for disinfection
+C_PAC,mg/L,concentration of powdered activated carbon 
+COD,%,reduction efficiency for chemical oxygen demand in reactor
+COD_eff,mg/L,chemical oxygen demand at effluent
+COD_in,mg/L,chemical oxygen demand at inlet
+CT,minutes,contact time
+DOC,%,reduction efficiency for dissolved organic carbon in the reactor
+DOC_eff,mg/L,dissolved organic carbon at effluent
+EC,%,reduction of electrical conductivity in reactor
+EC_eff,microS/cm,electric conductivity at effluent
+EC_in,microS/cm,electric conductivity at inlet
+flow,m3/h,flow rate in the reactor
+flux,L/m2.h,flux of water through membrane
+HRT,hours,hydraulic retention time
+NH4_N_in,mg/L,ammonia nitrogen at inlet
+NH4_N,%,reduction efficiency for ammonia nitrogen in reactor
+NH4_N_eff,mg/L,ammonia nitrogen at effluent
+NO2_N,%,reduction efficiency for nitrite nitrogen in reactor
+NO2_N_eff,mg/L,nitrite nitrogen at effluent
+NO2_N_in,mg-L,nitrite nitrogen at influent
+NO3_N,%,reduction efficiency for nitrate nitrogen in reactor
+NO3_N_eff,mg/L,nitrate nitrogen at effluent
+NO3_N_in,mg/L,nitrate nitrogen at inlet
+pH,-,pH at influent
+pH_eff,-,pH at effluent
+SRT,days,sludge retention time
+SS,%,reduction efficiency for suspended solids in reactor
+SS_eff,mg/L,suspended solids at effluent
+SS_in,mg/L,suspended solids at inlet
+Temp,C,effluent temperature
+TN,%,reduction efficiency for total nitrogen in reactor
+TN_eff,mg/L,total nitrogen at effluent
+TN_in,mg/L,total at inlet
+TOC,%,reduction efficiency for total organic carbon in reactor
+TOC_eff,mg/L,total organic carbon at effluent
+TP,%,reduction efficiency for total phosphorous in reactor
+TP_eff,mg/L,total phosphorus at effluent
+TP_in,mg/L,total phosphorus at inlet
+TSS,%,reduction efficiency for total suspended solids in reactor
+TSS_in,mg/L,total suspended solids at inlet
+tub_eff,mg/L,turbidity at effluent
+turb_in,mg/L,turbidity at inlet
+turbidity,mg/L Kaolin,reduction of turbidity in reactor
+Temp_in,C,influent temperature

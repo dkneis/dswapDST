@@ -1,0 +1,52 @@
+<p>
+This is the web interface to the database of removal efficiencies observed in wastewater treatment. It represents the knowledge reported in the scientific literature as of 2022 with regard to selected chemical or biological contaminants and treatment technologies.
+</p>
+
+<p>
+The unit of values reported differs between chemical contaminants (e.g. antibiotics or other drugs) and biological items (such as genetic markers). The values are computed from concentrations (or loads) in a treatment module's input (<span class="math">C<sub>in</sub></span>) and output (<span class="math">C<sub>out</sub></span>) as follows:
+</p>
+
+<style>
+.myTableClass {
+	  border-spacing: 10px;
+	  border-collapse: collapse;
+}
+.myTableClass tr {
+	  border-top: 3px solid #eee;
+	  border-bottom: 3px solid #eee;
+	}
+.myTableClass th {
+	  padding: 10px;
+}
+.myTableClass td {
+	  padding: 10px;
+}
+</style>
+
+<table class="myTableClass">
+<tr>
+  <th>Contaminant group</th>
+  <th>Reported value</th>
+  <th>Unit</th>
+  <th>Definition</th>
+</tr>
+<tr>
+  <td>Chemical</td>
+  <td>Percentage removal efficiency</td>
+  <td>%</td>
+  <td><span class="math">PRE = (C<sub>in</sub> - C<sub>out</sub>) / C<sub>in</sub> * 100</span></td>
+</tr>
+<tr>
+  <td>Biological</td>
+  <td>Log removal value</td>
+  <td>-</td>
+  <td><span class="math">LRV = log<sub>10</sub>(C<sub>in</sub> / C<sub>out</sub>)</span></td>
+</tr>
+</table>
+
+<br>
+<p>
+Use the navigation tabs at the top of the page to check the different functions of this web interface. For security reasons, the provided features differ between an online installation of this app (server mode) and local installations.
+</p>
+
+<img src="figures/start.png" alt="intro image" style="align:center; width:30em">

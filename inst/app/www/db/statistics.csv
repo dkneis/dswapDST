@@ -1,0 +1,5 @@
+id_statistics,description
+SNGL,single observation or unknown 
+RNG1,"Range (minimum to maximum), stored in format min - max"
+MED,Median value
+AVG,Averaged values

@@ -1,0 +1,22 @@
+Package: dswapDST
+Type: Package
+NeedsCompilation: no
+Title: DSWAP data base on contaminant removal efficiencies in wastewater treatment
+Version: 0.1
+Date: 2023-02-23
+Author: David Kneis <david.kneis@tu-dresden.de>
+Maintainer: David Kneis <david.kneis@tu-dresden.de>
+Description: Provides the data base on contaminant removal efficiencies of
+    various wastewater treatment technologies and the web-based interface.
+URL: https://github.com/dkneis/dswapDST
+License: GPL (>= 2)
+Imports:
+  shiny,
+  sqldf,
+  DT,
+  tabular
+SystemRequirements: The package "tabular" needs to be installed from the
+    github repository "https://github.com/dkneis/tabular" as it is not
+    currently available on CRAN.
+Encoding: UTF-8
+RoxygenNote: 7.1.2

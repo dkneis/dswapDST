@@ -1,0 +1,28 @@
+id_contaminant,id_CAS,description,id_contaminantGroup
+SMX,723-46-6,Sulphamethoxazole,1
+CMZ,298-46-4,Carbamazipine,1
+DCF,15307-86-5,Diclofenac,1
+ERY,114-07-8,Erythromycin,1
+TMP,738-70-5,Trimethoprim,1
+CIP,85721-33-1,Ciprofloxacin,1
+CLA,81103-11-9,Clarithromycin,1
+AZM,83905-01-5,Azithromycin,1
+tetA,not applicable,Tetracycline resistance gene tetA,2
+sul1,not applicable,Sulfonamide resistance gene sul1,2
+aph(3'')-IB,not applicable,"Aminoglycoside resistance gene aph(3"")-IB",2
+aph(6'),not applicable,Aminoglycoside resistance gene aph(6'),2
+aac(6')-IB,not applicable,Aminoglycoside resistance gene aac(6')-IB ,2
+mcr1,not applicable,Colistin resistance gene mcr1,2
+blaTEM,not applicable,Beta lactam resistance gene blaTEM,2
+mdf(A),not applicable,Macrolide-associated resistance gene mdf(A),2
+16s_rRNA,not applicable,Genomic DNA represented by 16S rRNA genes,2
+int1,not applicable,Class 1 integrons,2
+TC,not applicable,Total coliforms,3
+FC,not applicable,Fecal coliforms,3
+bacSMX,not applicable,Sulphamethoxazole resistant bacteria,3
+bacERY,not applicable,Erythromycin resistant bacteria,3
+bacCIP,not applicable,Ciprofloxacin resistant bacteria,3
+Ecoli,not applicable,Escherichia coli,3
+TB,not applicable,Total bacteria,3
+bacTET,not applicable,Tetracycline resistant bacteria,3
+bacSUL,not applicable,Sulphonamide resistant bacteria,3

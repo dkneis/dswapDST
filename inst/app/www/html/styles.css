@@ -1,0 +1,18 @@
+
+label {
+  font-weight: normal;
+  margin-bottom: 4px;
+  color: #3973ac;
+}
+
+h1 {font-size: x-large; color: #3973ac;}
+h2 {font-size: large;}
+
+.math {
+  font-family:serif;
+  font-style:italic
+}
+
+.shiny-output-error-validation {
+  color: red;
+}

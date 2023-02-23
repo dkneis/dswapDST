@@ -1,0 +1,18 @@
+id_technologyGroup,description
+RO,Reverse Osmosis
+FO,Forward Osmosis
+NF,Nano Filtration
+MBR,Membrane Bioreactor
+MF,Microfiltration
+UF,Ultrafiltration
+CAS,Conventional activated sludge treatment 
+O3,Ozonation treatment
+O3_H2O2,Ozonation/H2O2 treatment
+UV,UV treatment
+UV_H2O2,UV combined with H2O2 treatment
+Fe,Fenton treatment
+PhFe,Photo Fenton treatment
+SF,Sand Filtration
+Cl,Free Chlorine
+GAC,Granular activated carbon treatment
+STP,Sewage treatment plants
