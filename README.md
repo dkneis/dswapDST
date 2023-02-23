@@ -1,9 +1,9 @@
-``dswapDST`` - data base on contaminant removal efficiencies in wastewater treatment
+dswapDST - data base on contaminant removal efficiencies in wastewater treatment
 ======================================================
 
 What is this?
 ------------------
-This repository provides ``dswapDST``, an add-on package for the [``R ``](https://www.r-project.org/) statistical computing software. The package contains both, the data base of removal efficiencies reported in the scientific literature and the browser-based interactive user interface.
+This repository provides ``dswapDST``, an add-on package for the [``R ``](https://www.r-project.org/) statistical computing software. The package contains both, the data base of contaminant removal efficiencies reported in the scientific literature and the browser-based interactive user interface.
 
 Prerequisites
 ------------------
@@ -29,7 +29,7 @@ Starting the interface
 
 The package provides just a single function called ``runDST()``. Call it to start the data base interface in the web browser.
 
-How to report problems
+How to report problems or request features
 ------------------
 
-Write an email to David Kneis (firstname . lastname @ tu-dresden . de) describing the problem with as much detail as possible.
+Write an email to David Kneis (firstname . lastname @ tu-dresden . de).
