@@ -1,5 +1,6 @@
 server <- function(input, output) {
 
+  # to disable the SQL query mode when running over the web
   output$is_local <- reactive(Sys.getenv('SHINY_PORT') == "")
   outputOptions(output, "is_local", suspendWhenHidden=FALSE)
   
@@ -119,16 +120,16 @@ server <- function(input, output) {
       tryCatch({
         isolate( # do not react instantly on query edits
           if (nchar(input$expertMode.query) > 0) {
-            # check 'q' for possible bad inputs
             q <- as.character(input$expertMode.query)[1]
-            blank <- " "
-            special <- c("*",".",",","(",")","=","_")
-            allowed <- c(letters, LETTERS, special, blank)
-            qq <- unlist(strsplit(q, split=""))
-            if (!all(qq %in% allowed)) {
-              stop(paste0("Illegal characters in input. Must be characters,",
-                " blanks, or one of ",paste(special, collapse="")))
-            }
+#            # check 'q' for possible bad inputs
+#            blank <- " "
+#            special <- c("*",".",",","(",")","=","_","\n","\r")
+#            allowed <- c(letters, LETTERS, special, blank)
+#            qq <- unlist(strsplit(q, split=""))
+#            if (!all(qq %in% allowed)) {
+#              stop(paste0("Illegal characters in input. Must be characters,",
+#                " blanks, or one of ",paste(special, collapse="")))
+#            }
             if (!grepl(q, pattern="^select ", ignore.case=TRUE)) {
               stop("Legal queries start with 'select'.")
             }
