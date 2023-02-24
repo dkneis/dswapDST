@@ -1,6 +1,6 @@
-#library("shiny")
-#library("sqldf")
-#library("DT")
+library("shiny")
+library("sqldf")
+library("DT")
 
 if(!require("tabular")){
   library("devtools")
