@@ -738,8 +738,6 @@ id_case,id_parameter,value
 258,C_ini,23
 259,C_ini,67
 260,C_ini,10
-261,C_ini,1536
-261,Temp,22.2
 261,SRT,10
 261,HRT,12
 262,C_ini,1594
@@ -774,10 +772,6 @@ id_case,id_parameter,value
 269,Temp,13.5
 269,SRT,2
 269,HRT,1.92
-270,C_ini,24
-270,Temp,13.5
-270,SRT,2
-270,HRT,1.92
 271,C_ini,905
 271,Temp,10.4
 271,SRT,46
