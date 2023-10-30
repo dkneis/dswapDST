@@ -101,8 +101,10 @@ ui <- fluidPage(
       conditionalPanel(
         condition = "output.is_local == false",
           HTML(paste0("For security reasons, this feature is currently not",
-            " supported when the app is run over the internet. A distribution",
-            " package for offline use is currently under construction."))
+            " supported when the app is run over the internet. In order to",
+            " us it, please install the software locally. You can obtain",
+            " the latest version from",
+            " <a href='https://github.com/dkneis/dswapDST'>this repository</a>."))
       )
     ),
     ############################################################################
