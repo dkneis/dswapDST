@@ -1,12 +1,13 @@
 library("shiny")
 library("sqldf")
 library("DT")
+library("tabular")  # from github dkneis/tabular
 
-if(!require("tabular")){
-  #library("devtools")
-  #devtools::install_github("dkneis/tabular")
-  stop("please install package 'dkneis/tabular' from github")
-}
+#if(!require("tabular")){
+#  #library("devtools")
+#  #devtools::install_github("dkneis/tabular")
+#  stop("please install package 'dkneis/tabular' from github")
+#}
 
 appname <- "DSWAP Removal Efficiency Database"
 
